@@ -1,0 +1,38 @@
+# Preusmerjanje zunanjih ukazov
+
+dirmake test
+
+dirchange test
+
+
+
+/bin/echo "Gori na gori gori" >gori.txt
+
+
+
+cat gori.txt
+
+cat <gori.txt
+
+
+
+cat <gori.txt >doli.txt
+
+
+
+cat doli.txt
+
+cat <doli.txt
+
+
+
+unlink gori.txt
+
+unlink doli.txt
+
+
+
+dirchange ..
+
+dirremove test
+

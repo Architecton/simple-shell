@@ -1,0 +1,32 @@
+# Cevovodi
+
+dirmake test
+
+dirchange test
+
+
+
+pipes "echo 01234567890123456789" "rev" "tee digits.txt"
+
+
+
+dirlist
+
+pipes "cpcat digits.txt" "cat" "cpcat" "cat" "cpcat"
+
+
+
+pipes "cat digits.txt" "rev" "tr 13579 abcde" "rev"
+
+
+
+pipes "cat /etc/passwd" "cut -d: -f7" "sort" "uniq -c" "sort -nr" "head -3"
+
+
+
+unlink digits.txt
+
+dirchange ..
+
+dirremove test
+

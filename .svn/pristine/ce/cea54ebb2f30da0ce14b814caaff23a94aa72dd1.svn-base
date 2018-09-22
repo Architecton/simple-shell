@@ -1,0 +1,54 @@
+# cpcat and linklist
+
+dirmake test
+
+dirchange test
+
+
+
+cpcat /etc/hostname hostname
+
+cpcat hostname
+
+cpcat /etc/fstab fstab
+
+cpcat fstab
+
+
+
+linkhard hostname h
+
+linkhard fstab f
+
+linkhard h hh
+
+linkhard f ff
+
+
+
+linklist h
+
+linklist f
+
+
+
+unlink hostname
+
+unlink fstab
+
+unlink h
+
+unlink hh
+
+unlink f
+
+unlink ff
+
+
+
+dirchange ..
+
+dirremove test
+
+
+

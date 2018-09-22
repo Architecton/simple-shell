@@ -1,0 +1,13 @@
+Izvajanje test-K
+  Log datoteka: test-K.log
+  Izhod programa: test-K.out
+  Ukazna vrstica: ./Naloga3 
+  Izhodni status: 0
+  Realni cas izvajanja: 3
+  Uporabniski cas izvajanja: 2
+  Sistemski cas izvajanja: 1
+  Procesorski cas izvajanja: 3
+Preverjanje test-K
+  Izhodni status: ok
+  Standardni izhod: err
+  Tocke: 0

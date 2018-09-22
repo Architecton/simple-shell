@@ -1,0 +1,13 @@
+Izvajanje test-L
+  Log datoteka: test-L.log
+  Izhod programa: test-L.out
+  Ukazna vrstica: ./Naloga3 
+  Izhodni status: 0
+  Realni cas izvajanja: 845
+  Uporabniski cas izvajanja: 54
+  Sistemski cas izvajanja: 844
+  Procesorski cas izvajanja: 898
+Preverjanje test-L
+  Izhodni status: ok
+  Standardni izhod: err
+  Tocke: 0

@@ -1,0 +1,13 @@
+Izvajanje test-A
+  Log datoteka: test-A.log
+  Izhod programa: test-A.out
+  Ukazna vrstica: ./Naloga3 
+  Izhodni status: 42
+  Realni cas izvajanja: 9
+  Uporabniski cas izvajanja: 1
+  Sistemski cas izvajanja: 8
+  Procesorski cas izvajanja: 9
+Preverjanje test-A
+  Izhodni status: ok
+  Standardni izhod: err
+  Tocke: 0

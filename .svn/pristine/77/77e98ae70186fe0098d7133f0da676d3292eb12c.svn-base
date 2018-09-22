@@ -1,0 +1,30 @@
+# Cevovodi
+
+dirmake test
+
+dirchange test
+
+
+
+pipes "cat /etc/passwd" "wc -l"
+
+
+
+pipes "cpcat /etc/passwd" "wc -l"
+
+
+
+pipes "/bin/echo 01234567890123456789" "cat"
+
+
+
+pipes "echo 01234567890123456789" "rev"
+
+
+
+dirchange ..
+
+dirremove test
+
+
+

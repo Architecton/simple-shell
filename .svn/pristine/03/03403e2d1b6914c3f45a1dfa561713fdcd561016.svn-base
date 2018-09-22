@@ -1,0 +1,28 @@
+# Osnovni test delovanja repl in nekaj preprostih ukazov
+
+name
+
+name lupina 
+
+name
+
+echo Abrakadabra
+
+name
+
+# nekaj praznih vrstic
+
+
+
+    
+
+
+
+    # komentar
+
+print "OS: "
+
+echo "Gates, Jobs and Torvalds."
+
+exit 42
+

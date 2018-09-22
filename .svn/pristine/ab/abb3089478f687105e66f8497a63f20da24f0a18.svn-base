@@ -1,0 +1,60 @@
+# Delo z linki
+
+dirmake test
+
+dirchange test
+
+
+
+linkhard ../Naloga3.c trdi
+
+linkhard trdi dvojno_trdi
+
+ln dvojno_trdi trojno_trdi
+
+
+
+linksoft /etc/passwd gesla 
+
+ln -s gesla sifre
+
+linksoft null/nil/None void
+
+
+
+dirlist
+
+linkread gesla
+
+linkread sifre
+
+linkread void
+
+linklist dvojno_trdi
+
+linklist trdi
+
+
+
+unlink trdi
+
+rm dvojno_trdi
+
+unlink trojno_trdi
+
+unlink gesla
+
+unlink sifre
+
+rm void
+
+
+
+dirlist
+
+dirchange ..
+
+dirremove test
+
+
+

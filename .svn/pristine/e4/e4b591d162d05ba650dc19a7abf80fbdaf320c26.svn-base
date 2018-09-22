@@ -1,0 +1,13 @@
+Izvajanje test-J
+  Log datoteka: test-J.log
+  Izhod programa: test-J.out
+  Ukazna vrstica: ./Naloga3 
+  Izhodni status: 0
+  Realni cas izvajanja: 4
+  Uporabniski cas izvajanja: 2
+  Sistemski cas izvajanja: 3
+  Procesorski cas izvajanja: 5
+Preverjanje test-J
+  Izhodni status: ok
+  Standardni izhod: err
+  Tocke: 0

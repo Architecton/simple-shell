@@ -1,0 +1,13 @@
+Izvajanje test-C
+  Log datoteka: test-C.log
+  Izhod programa: test-C.out
+  Ukazna vrstica: ./Naloga3 
+  Izhodni status: 0
+  Realni cas izvajanja: 15
+  Uporabniski cas izvajanja: 0
+  Sistemski cas izvajanja: 15
+  Procesorski cas izvajanja: 15
+Preverjanje test-C
+  Izhodni status: ok
+  Standardni izhod: err
+  Tocke: 0

@@ -1,0 +1,38 @@
+# Delo z imeniki
+
+dirmake test
+
+dirchange test
+
+
+
+dirmake Silberschatz
+
+dirmake Galvin
+
+dirmake Gagne
+
+dirlist
+
+
+
+dirremove Galvin
+
+dirremove Gagne
+
+rename Silberschatz Stallings
+
+dirlist
+
+
+
+dirremove Stallings
+
+
+
+dirchange ..
+
+dirremove test
+
+
+

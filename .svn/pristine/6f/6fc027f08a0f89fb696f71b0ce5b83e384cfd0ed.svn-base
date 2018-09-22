@@ -1,0 +1,56 @@
+# Malo mesano
+
+dirmake test
+
+dirchange test
+
+
+
+echo "Gori na gori gori" >gori.txt
+
+rev gori.txt
+
+cpcat <gori.txt
+
+
+
+linkhard gori.txt t
+
+linksoft gori.txt s
+
+
+
+unlink gori.txt
+
+unlink t
+
+unlink s
+
+
+
+dirmake the
+
+touch the/sky
+
+linksoft the/sky "the/blue sky"
+
+dirlist the
+
+unlink the/sky
+
+linkread "the/blue sky"
+
+rename "the/blue sky" "the/gray sky"
+
+dirlist the
+
+rm "the/gray sky"
+
+dirremove the
+
+
+
+dirchange ..
+
+dirremove test
+
